@@ -1,0 +1,77 @@
+{
+    "controlador.listas.LinkedList": {
+        "head": {
+            "data": {
+                "@class": "modelo.Censo",
+                "id": 1,
+                "nombrePersona": "Luis Cordova",
+                "motivo": "Infidelidad",
+                "fecha": "23-11-2022",
+                "estadoEmocional": "Satisfacción con la vida",
+                "duracionRelacion": "15 anios",
+                "censador": {
+                    "nombre": "Santiago ",
+                    "apellido": "Alvarez",
+                    "dni": 1104982572,
+                    "correo": "naim.alvarez@unl.edu.ec"
+                }
+            },
+            "next": {
+                "data": {
+                    "@class": "modelo.Censo",
+                    "id": 2,
+                    "nombrePersona": "Pedro Sanchez",
+                    "motivo": "Mutuo acuerdo",
+                    "fecha": "12-05-2000",
+                    "estadoEmocional": "Estres",
+                    "duracionRelacion": "3 anios",
+                    "censador": {
+                        "nombre": "Pedro",
+                        "apellido": "Pascal",
+                        "dni": 432959323,
+                        "correo": "pedro.pascal@gmail.com"
+                    }
+                },
+                "next": {
+                    "data": {
+                        "@class": "modelo.Censo",
+                        "id": 3,
+                        "nombrePersona": "Fanny Correa",
+                        "motivo": "Mutuo acuerdo",
+                        "fecha": "11-10-2023",
+                        "estadoEmocional": "Felicidad",
+                        "duracionRelacion": "10 anios",
+                        "censador": {
+                            "nombre": "Santiago ",
+                            "apellido": "Alvarez",
+                            "dni": 1104982572,
+                            "correo": "naim.alvarez@unl.edu.ec"
+                        }
+                    },
+                    "next": {
+                        "data": {
+                            "@class": "modelo.Censo",
+                            "id": 4,
+                            "nombrePersona": "jaslfjasd",
+                            "motivo": "sfdfsf",
+                            "fecha": "11-04-2023",
+                            "estadoEmocional": "Felicidad",
+                            "duracionRelacion": "ewfwsfsf",
+                            "censador": {
+                                "id": 7,
+                                "nombre": "wefsf",
+                                "apellido": "ewrw",
+                                "dni": 23,
+                                "correo": "fe"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/head\/next\/next\/next"
+        },
+        "size": 4
+    }
+}
